@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.event{
+    color: gray;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+.event:hover{
+    color: white;
+}
+
+.backgrnd{
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+a{
+    color: aliceblue; 
+}
+img{
+    display: flex;
+    justify-content: flex-start;
+}
