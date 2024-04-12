@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Quote Generator</h1>
+    <Button onclick="genquote()">Genrate quote</Button>
+ </center>
+    <script>
+        function genquote(){
+            const quotes = [
+                "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. - Ralph Waldo Emerson",
+                "The only way to do great work is to love what you do. - Steve Jobs",
+                "You are never too old to set another goal or to dream a new dream. - C.S. Lewis"
+        ]
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        alert(quotes[randomIndex]);
+        }
+    </script>
+</body>
+</html>
