@@ -1,4 +1,4 @@
-[13/04, 2:42 pm] Aishwarya: <?php
+<?php
 function factorial($n) {
     if ($n === 0) {
         return 1;
